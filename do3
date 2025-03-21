@@ -1,0 +1,7 @@
+print(float(input("인치 입력: ")) * 2.54, "cm")
+
+print(float(input("킬로그램 입력: ")) * 2.20462, "파운드")
+
+import math
+r = float(input("반지름 입력: "))
+print("둘레:", 2 * math.pi * r, "넓이:", math.pi * r ** 2)
